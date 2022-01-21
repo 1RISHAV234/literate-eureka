@@ -18,3 +18,6 @@ function draw() {
     circle(320,320,50);
     circle(320,30,50);
 }
+function take_snapshot() {
+    save("croppedImage.png");
+}
